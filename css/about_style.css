@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*ABOUT
+------------------------------------------------------------*/
+#about_content{height:490px; width:960px;  margin:28px 0 25px 0; background:url(../images/content_bg.jpg) no-repeat;border:1px solid #333333;-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+#left_content{ float:left; width:320px; height:490px;}
+#left_content_inner{ padding:30px 0 0 60px; }
+#left_content li{ font-family:Arial,Tahoma,Helvetica,sans-serif; height:35px; line-height:40px; color:#bebebe; font-weight:bold; border-bottom:1px dashed #9C946A; width:200px; text-shadow:#61503c 3px 3px 4px;}
+
+#center_content{ float:left;width:319px; height:490px; border-right:1px dashed #2a2b28;  overflow:hidden;z-index:20;}
+#center_content_inner{ width:270px; height:430px;color:#fff; overflow:hidden;position:relative; top:30px; left:20px;}
+.zhongod{ width:270px; height:1000px; position:absolute; top:25px;right:20px;z-index:10;}
+.zhongod li{ padding:5px; height:24px; line-height:180%;border-bottom:1px dotted #454545;}
+
+.zhongod li.diff{ height:50px; padding:5px;line-height:180%}
+.zhongod li.diff.hover{height:50px; background:#454545; color:#fc0;}
+.zhongod li.hover {height:24px;background:#454545;color:#fc0;}
+.zhongod span {color:#fff;margin-left:4px;}
+.zhongod a {color:#c2f30b;}
+
+.Scrollbar_Up{ background:url(../images/scroll_arrow.gif) no-repeat; width:15px; height:15px; position:absolute; top:5px; right:0px;cursor:pointer; z-index:40}
+.Scrollbar_Down{ background:url(../images/scroll_arrow.gif) no-repeat 0 -15px; width:15px; height:15px; position:absolute; top:25px; right:0px;cursor:pointer;z-index:50;}
+
+#right_content{float:right; width:320px; height:490px;}
+#right_content_inner{ width:320px; height:490px; background:url(../images/zhongod.jpg) no-repeat;-moz-border-radius-topright:5px; -moz-border-radius-bottomright:5px; -webkit-border-bottom-right-radius:5px;-webkit-border-top-right-radius:5px;border-radius:5px; display:none;}

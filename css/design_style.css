@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*design
+----------------------------------------------------*/
+#design_content{ width:960px; height:1%; overflow:hidden; margin:25px 0; padding:20px 0; background:#575757;  border:1px solid #CCC;}
+
+#main_content{ float:right; width:730px; padding:0 10px;/* background:#CCC; border:1px solid white;*/}
+#sidebar{ float:left; display:inline; width:180px; height:600px; margin:0 10px; padding:5px; background:#888; }
+
+h2 { width:180px; height:25px; line-height:25px;font-size:14px; color:#fff;text-align:center; background:#3D6961;}
+.bar{ padding:10px 0;}
+.all-show-btn,.all-hide-btn{font-size:12px; padding:0 10px 0 20px; background:url(../images/icon.gif) no-repeat;}
+.all-show-btn{ background-position:0 0;}
+.all-hide-btn{ background-position:0 -30px;}
+.list{ width:175px;/* border:1px solid red; */padding:1px;}
+.list dl { font-size:12px; line-height:200%; font-weight:normal; cursor:pointer; }
+.list dl dt { color:#000; padding-left:20px; background:#967C25 url(../images/icon.gif) no-repeat 0 -56px;}
+.list dl dd { color:#fff;padding-left:40px;background:url(../images/icon.gif) no-repeat 20px -114px; display:none;}
+.list .show dt{ background:#fc0 url(../images/icon.gif) no-repeat 0 -86px;}
+.list .show dt.show-A{background:#967C25 url(../images/icon.gif) no-repeat 0 -56px;}
+.list .show dt.show-B{background:#fc0 url(../images/icon.gif) no-repeat 0 -86px;}
+.list .icon{ background:#fc0 url(../images/icon.gif) no-repeat 0 -86px;}
+
+
+#main li{ margin-bottom:20px; position:relative; border-bottom:1px dashed #ccc; overflow:hidden; height:1%;}
+h3{padding:0 0 5px 5px;font-size:16px;color:#fff;  }
+#main .web01{ width:710px; height:230px;border:1px solid #333; padding:3px; background:#ccc url(../images/No_01.jpg) no-repeat center center;}
+#main.web02{ width:710px; height:240px; background:url(../images/web02.jpg) no-repeat;}
+
+h4{ margin:10px 0 10px 5px; }
+
+h4 span{display:block;}
+h4 a{ color:white; font-size:14px;}
+h4 a:hover{ color:#FC0; text-decoration:underline;}
+#main p{ text-indent:25px;}
+
+.more{ float:right; padding:20px 50px 10px 0; }
+.more a:hover{ color:#F90;}

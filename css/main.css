@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* ------------------------------------------------------------
+Website	:	http://www.zhongod.com
+Version	:	2010bite
+ Author	:	Zhong lognping
+  Email	:	zhongod@163.com
+     QQ	:	229899416
+
+------------------------------------------------------------ */
+
+/* = about css
+reset		CSS重定义文件
+layout    	网站布局样式
+style		网站功能样式
+
+------------------------------------------------------------ */
+@import url(reset.css);
+@import url(layout.css);
+
+

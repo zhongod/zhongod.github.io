@@ -1,0 +1,54 @@
+@charset "utf-8";
+/*index
+----------------------------------------------------------*/
+#ent_logo {width:281px;margin:0 auto;margin-top:150px;}
+#ent_logo a {display:block;width:281px;height:252px;background:url(../images/ent_logo.png) no-repeat 0 0;}
+#ent_logo a:hover {	background:url(../images/ent_logo.png) no-repeat 0 -252px;}
+#copyright {width:517px;height:36px;margin:0 auto;background:url(../images/copyright_bg.png) no-repeat 0 0;}
+.copyright_con {font:14px Verdana, Geneva, sans-serif;color:#888;line-height:36px;text-align:center;}
+
+/*Header
+------------------------------------------------------------*/
+#wrapper{ width:960px; margin:auto;}
+#header{ height:40px;}
+#logo{ float:left;width:221px; height:39px; margin-top:20px; text-indent:-9999px; 
+background:url(../images/logo01.jpg) no-repeat}
+#nav{ position:relative; float:right;width:681px; height:37px;margin-top:20px; background:url(../images/menu.png) no-repeat;}
+#nav li{ float:left;margin-right:2px;}
+#nav li a{display:block;height:36px;  text-indent:-9999px; overflow:hidden;}
+#nav li#index{ width:95px;}
+#nav li#about{width:90px;}
+#nav li#design{width:90px;}
+#nav li#blog{width:90px;}
+#nav li#forum{width:90px;}
+#nav li#link{width:90px;}
+#nav li#themes{width:100px;}
+
+#nav li#index a:hover{background:url(../images/menu.png) no-repeat 0 -37px; }
+#nav li#about a:hover{background:url(../images/menu.png) no-repeat -97px -37px; }
+#nav li#design a:hover{background:url(../images/menu.png) no-repeat -190px -37px; }
+#nav li#blog a:hover{background:url(../images/menu.png) no-repeat -281px -37px; }
+#nav li#forum a:hover{background:url(../images/menu.png) no-repeat -373px -37px; }
+#nav li#link a:hover{background:url(../images/menu.png) no-repeat -465px -37px; }
+#nav li#themes a:hover{background:url(../images/menu.png) no-repeat -557px -37px; }
+
+#nav ul {display:none;border:1px solid #666;background:#333;padding:3px;position:absolute;top:35px;right:0px;width:240px;opacity:0.80;filter:alpha(opacity=80);}
+#nav ul li {text-align:center;float:left; width:75px; }
+#nav ul li a {text-indent:10px;line-height:30px;color:white;}
+#nav li#themes ul li a:hover {color:#fc0; text-decoration:underline; background:none;}
+#nav li#themes ul.hover{display:block;z-index:100;}
+/*#nav li:hover ul{display: block;z-index:100;}这句只有标准浏览器识别*/
+
+#index_btn #index{background:url(../images/menu.png) no-repeat 0 -37px; }
+#about_btn #about{background:url(../images/menu.png) no-repeat -97px -37px; }
+#design_btn #design{background:url(../images/menu.png) no-repeat -190px -37px; }
+#blog_btn #blog{background:url(../images/menu.png) no-repeat -281px -37px; }
+#forum_btn #forum{background:url(../images/menu.png) no-repeat -373px -37px; }
+#link_btn #link{background:url(../images/menu.png) no-repeat -465px -37px; }
+#themes_btn #themes{background:url(../images/menu.png) no-repeat -557px -37px; }
+
+/*footer
+------------------------------------------------------------*/
+#footer { clear:both;height:30px;width:600px;margin:0 auto;text-align:center;line-height:30px;color:#868686;background:url(../images/foot-bg.gif) repeat-x center top;}
+#footer a {color:#ccc;padding:10px;}
+#footer a:hover {color:#808040;}

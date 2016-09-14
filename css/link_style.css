@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* link
+----------------------------------------------------------*/
+#link_content{ width:960px; height:502px; overflow:hidden; margin:25px 0;background:#575757;  border:1px solid #CCC; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;}
+
+#tab_content{ padding-left:20px;}
+.tabfirst li{ float:left; text-align:center; height:30px; width:80px; line-height:30px; margin:20px 10px 0 15px;background:url(../images/link_tab_but.jpg) no-repeat; color:white; font-weight:bold; cursor:pointer;}
+.tabfirst li.tabin{ background:url(../images/link_tab_but.jpg) no-repeat 0 -30px; color:#fc0; font-weight:bold;}
+
+
+#box_content{ height:450px;clear:left;color:white;background:#333; border-top:1px solid #999;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px;border-bottom-right-radius:5px; border-bottom-left-radius:5px;}
+
+#list_music,#list_address{ position:relative;width:940px; height:430px; padding:10px;background:url(../images/link_music_bg.jpg) no-repeat;-moz-border-radius-bottomleft:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-left-radius:5px; -webkit-border-bottom-right-radius:5px;border-bottom-right-radius:5px; border-bottom-left-radius:5px;}
+#list_address{background:url(../images/link_address_bg01.jpg) no-repeat;}
+
+.music,.address{ position:absolute; top:20px; right:30px; overflow:hidden; width:430px; height:390px;padding:10px;background:url(../images/link_li_bg.gif) no-repeat;opacity:0.70;filter:alpha(opacity=70);	z-index:20;}
+
+.music li,.address li{ padding:5px; height:24px;line-height:24px;border-bottom:1px dotted #454545;}
+.music li a{color:#CF0; margin-right:10px; background:url(../images/music_a.gif) no-repeat; padding-left:20px;}
+.music li a:hover,.address li.hover a:hover{ text-decoration:underline;}
+.music li.hover,.address li.hover{color:#fc0;background:#454545; }
+.music h2{ float:right; font-size:12px;}
+
+.address em {float:left;display:block;width:150px;color:#ccc;font-weight:bold;}
+.address li a{ color:#cf0;}
+
+
+
+#list_add,#other{ display:none;}
