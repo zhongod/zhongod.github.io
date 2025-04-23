@@ -1,0 +1,15 @@
+{
+"Version": 1,
+"Link": "http://jj.zhongod.com/up",
+"Log": "更新日志：",
+"Msg": "京东外卖活动汇总\n实时获取🧧每日更新",
+"Source": "内容由 http://jj.zhongod.com 一键生成",
+"Title": "检测到快捷指令更新",
+"List": {
+"🔥库迪3.9元丨满8减7": "openjd://virtual?params={"category":"jump","des":"m","url":"https://u.jd.com/16UuULT"}",
+"星巴克百亿补贴券": "openjd://virtual?params={"category":"jump","des":"m","url":"https://u.jd.com/1DUikNW"}",
+"尊宝披萨爆款16.8元": "openjd://virtual?params={"category":"jump","des":"m","url":"https://u.jd.com/1aULMGF"",
+"20元餐补丨早10晚8准点抽": "openjd://virtual?params={"category":"jump","des":"m","url":"https://u.jd.com/1rUij4k"}"
+}
+}
+
