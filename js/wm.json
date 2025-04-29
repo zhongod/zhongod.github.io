@@ -1,0 +1,12 @@
+{
+"Version": 1,
+"Link": "https://wm.zhongod.com/goup",
+"Log": "更新日志：",
+"Msg": "京东/美团/饿了么外卖汇总\n实时获取🧧每日更新",
+"Title": "有更大的外卖红包>>去更新",
+"List": {
+"🍔 京东外卖红包": "openjd://virtual?params=%7B%0A%20%20%22url%22%20:%20%22https://u.jd.com/gageQM1%22,%0A%20%20%22des%22%20:%20%22m%22,%0A%20%20%22category%22%20:%20%22jump%22%0A%7D",
+"🍱 美团外卖红包":"imeituan://www.meituan.com/takeout/browser?inner_url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D2%26p%3DPrKvAL9zTqpO&lch=cps:mtlm:10:b9831c934ad648519d5bf0be5e24eaad:3aad86cbca59349a36cf:7:1696797023346810929",
+"🍛 饿了么外卖红包": "tbopen://m.taobao.com/tbopen/index.html?&action=ali.open.nav&module=h5&h5Url=https%3A%2F%2Fm.duanqu.com%2F%3F_ariver_appid%3D8251537%26page%3Dplugin-private%253A%252F%252F2021003183669766%252Fpages%252Fh5%252Findex%253FconfigKey%253DPAGE_TAOBAO_CATER%2526scene%253D180d7299f2da48d6b6e608609304123b"
+}
+}
